@@ -6,6 +6,10 @@
 #   movies = Movie.create([{ name: "Star Wars" }, { name: "Lord of the Rings" }])
 #   Character.create(name: "Luke", movie: movies.first)
 
+
 90.times do |i|
-    Tweet.create(UserName:Faker::Lorem.words(number: 4, exclude_words: 'error'),  Description:Faker::Lorem.paragraph(sentence_count: 2))
-end
+    tweet = Tweet.create(
+      UserName: Faker::Lorem.characters(number: 10),Description: Faker::Lorem.paragraph(sentence_count: 4)
+    )
+    
+  end
