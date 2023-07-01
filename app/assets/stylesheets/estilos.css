@@ -12,35 +12,32 @@ h1{
     padding: 0px;
 }
 
+
 .buscar{
     text-align: center;
     margin-top: 2px;
     margin-bottom: 45px;
-  }
-
-  .sub{
     font-family: 'Rubik', sans-serif;
-    font-weight: 900 !important;
-
   }
+
+ 
+  
 .card{
     background-color: #ffff;
     border-radius: 9px;
     width: auto;
     margin: 15px;
     padding: 0;
-    width:250px !important;
-    height: 350px !important;
+    width:260px !important;
+    height: 390px !important;
     
 
 }
 
+.etiqueta{
+font-size: 13px;
+font-family: 'Rubik', sans-serif;
 
-.texto-tarjeta{
-    padding: 20px !important;
-    margin: 0 !important;
-    font-family: 'Rubik', sans-serif;
-    font-style: italic;
 }
 
 .circulo {
@@ -62,27 +59,99 @@ h1{
     background-color: #3f5ccc;
   }
 
-  .username2{
+  .name{
     padding-bottom: 0px;
     margin-bottom: 0px;
-    font-weight: 600;
+    font-weight: 800;
     font-size: 25px;
+    font-family: 'Rubik', sans-serif;
   }
 
  .mensaje{
     font-size: 18px;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
  }
 
-
- .titulo{
-    font-size: 3px !important;
- }
 
  .nuevo{
     text-decoration: none !important;
     font-size: 20px;
     font-weight: 600;
-    margin-bottom: 20px;
     margin-left: 20px;
+    color: #2b2665;
+    font-family: 'Rubik', sans-serif;
  }
 
+ .paginas{
+    margin-left: 820px;
+    margin-right: 12px;
+ }
+
+ .mostrar{
+    font-size: 20px;
+    color: #239fb2;
+    text-decoration: none !important;
+ }
+
+ .form-new{
+    text-align: center;
+ }
+
+ .form-new{
+    font-family: 'Rubik', sans-serif;
+ }
+
+
+ .new-tweet, .edit-tweet{
+    margin-top: 60px;
+    margin-bottom: 20px;
+ }
+
+ h4{
+    font-size: 20px !important;
+    text-align: center;
+    margin-bottom: 35px !important;
+    font-family: 'Rubik', sans-serif;
+    margin-top: 10px;
+ }
+
+ #tweet_Description{
+     width: 60%;
+     padding-top: 30px;
+     margin-bottom: 20px;
+ }
+ #tweet_UserName{
+    width: 60%;
+    margin-bottom: 20px;
+ }
+
+ .body-new{
+    background-color:#baddc9;
+ }
+
+ .edit-body{
+    background-color: #ebf0d3;
+ }
+
+.form-edit{
+    text-align: center;
+}
+
+.boton-edit{
+    text-align: center;
+}
+
+.boton-volver{
+    color: #2b2665;
+    font-weight: 600;
+    font-family: 'Rubik', sans-serif;
+    text-decoration: none;
+}
+
+.ver-tweet{
+    font-family: 'Rubik', sans-serif;
+    text-decoration: none;
+    color: #2b2665;
+    font-weight: 400;
+}

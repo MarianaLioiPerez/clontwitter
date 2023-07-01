@@ -4,7 +4,6 @@
 
 <head>
   <h1>Tweets</h1>
-  <h4 class="container w-75">-- 2.0<h4>
   <div class="buscar"> 
   <%= form_with url: tweets_path, method: :get do |form|%>
     <%= form.text_field :query_text, placeholder: ('Buscar'), value: params[:query_text]%>
@@ -19,10 +18,10 @@
     <div class="col"> 
       <% @tweets.each_with_index do |tweet, index| %>
           <div class="card d-inline-flex shadow p-3 mb-5 bg-body-tertiary rounded" style="width: 18rem;">
-            <div class="card-body texto-tarjeta align-items-center">
+            <div class="card-body align-items-center">
             <div class="circulo <%= "color#{(index % 3) + 1}" %>"></div>
-              <%= render tweet%>
-              <p><%= link_to "Show this tweet", tweet %></p>
+              <%= render tweet, class:"body-texto"%>
+              <p><%= link_to "Show this tweet", tweet, class:"mostrar" %></p>
             </div>
           </div>
       <% end %>
@@ -31,8 +30,8 @@
   </div>
 </div>
 
-<div class="container d-inline contenido">
-<div class="nuevo"><%= link_to "New tweet", new_tweet_path %>
-<div class="paginas"><%=raw pagy_bootstrap_nav(@pagy)%></div></div>
+<div class="container">
+<div class="d-inline-flex"><%= link_to "New TWEET", new_tweet_path, class:"nuevo"  %>
+<div class="paginas d-inline-flex"><%=raw pagy_bootstrap_nav(@pagy)%></div></div>
 </div>
 </body>

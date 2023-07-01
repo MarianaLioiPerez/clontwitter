@@ -1,9 +1,14 @@
-<h1>New tweet</h1>
+<body class="body-new">
+  <h1 class="new-tweet">New Tweet</h1>
+  <h4>ingresa tu nuevo tweet, junto a tu username</h4>
 
-<%= render "form", tweet: @tweet %>
+  <div class="form-new">
+  <%= render "form", tweet: @tweet %>
 
-<br>
+  <br>
 
-<div>
-  <%= link_to "Back to tweets", tweets_path %>
-</div>
+  <div>
+    <%= link_to "Volver", tweets_path %>
+  </div>
+  </div>
+</body>

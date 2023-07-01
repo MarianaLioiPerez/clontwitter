@@ -1,10 +1,12 @@
-<h1>Editing tweet</h1>
+<body class= "edit-body">
+<h1 class="edit-tweet">Editing Tweet</h1>
 
-<%= render "form", tweet: @tweet %>
+<div class="form-edit"><%= render "form", tweet: @tweet%></div>
 
 <br>
 
-<div>
-  <%= link_to "Show this tweet", @tweet %> |
-  <%= link_to "Back to tweets", tweets_path %>
+<div class="boton-edit">
+  <%= link_to "Ver tweet actual", @tweet, class:"ver-tweet" %> |
+  <%= link_to "HOME", tweets_path, class:"boton-volver"%>
 </div>
+</body>
