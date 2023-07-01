@@ -1,0 +1,88 @@
+
+.body-index{
+    background-color: #d3e2ea;
+}
+
+h1{
+    color:#06ace3 !important;
+    text-align: center;
+    font-family: 'Lilita One', cursive;
+    font-size: 90pt !important;
+    margin: 0px;
+    padding: 0px;
+}
+
+.buscar{
+    text-align: center;
+    margin-top: 2px;
+    margin-bottom: 45px;
+  }
+
+  .sub{
+    font-family: 'Rubik', sans-serif;
+    font-weight: 900 !important;
+
+  }
+.card{
+    background-color: #ffff;
+    border-radius: 9px;
+    width: auto;
+    margin: 15px;
+    padding: 0;
+    width:250px !important;
+    height: 350px !important;
+    
+
+}
+
+
+.texto-tarjeta{
+    padding: 20px !important;
+    margin: 0 !important;
+    font-family: 'Rubik', sans-serif;
+    font-style: italic;
+}
+
+.circulo {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin-right: 5px;
+  }
+
+  .color1 {
+    background-color: #f269c2;
+  }
+
+  .color2 {
+    background-color:#c0de00;
+  }
+
+  .color3 {
+    background-color: #3f5ccc;
+  }
+
+  .username2{
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    font-weight: 600;
+    font-size: 25px;
+  }
+
+ .mensaje{
+    font-size: 18px;
+ }
+
+
+ .titulo{
+    font-size: 3px !important;
+ }
+
+ .nuevo{
+    text-decoration: none !important;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    margin-left: 20px;
+ }
+
