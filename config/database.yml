@@ -17,8 +17,6 @@
 default: &default
   adapter: postgresql
   encoding: unicode
-  username: <%= Rails.application.credentials.db[:username]%>
-  password: <%= Rails.application.credentials.db[:password]%>
   host: 127.0.0.1
   port: 5432
   # For details on connection pooling, see Rails configuration guide
@@ -85,6 +83,4 @@ test:
 #
 production:
   <<: *default
-  database: ClonTwitter_production
-  username: ClonTwitter
-  password: <%= ENV["CLONTWITTER_DATABASE_PASSWORD"] %>
+  url: <%= ENV['DATABASE_URL']%>
